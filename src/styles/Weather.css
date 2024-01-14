@@ -1,0 +1,19 @@
+.weatherContainer {
+    border-radius: 10%;
+    width: 15vw;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 2px rgb(117, 114, 114);
+    margin: auto;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .weatherContainer {
+      width: 20vw; /* Justera bredden för mindre skärmar */
+    }
+  }

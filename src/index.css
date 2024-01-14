@@ -1,0 +1,13 @@
+.move {
+display: flex;
+  align-items: center;
+  background-color: rgb(110, 202, 245);
+  max-width: 900px;
+  margin: auto;
+  padding: 15px;
+  flex-direction: column;
+  overflow: auto;
+  gap: 20px;
+  border: solid 1px black;
+}
+
